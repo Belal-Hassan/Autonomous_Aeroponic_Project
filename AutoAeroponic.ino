@@ -197,11 +197,9 @@ void loop() {
   } /* a realtime stream data input from the android app through the firebase in order to
   know wether the user wants to change the data or not (if changeData is 1, the user will change the 
   data, but if it's 0, the data is already changed).*/
-  if (changeData){
+  if (changeData)
     ctrTemp = 0;
-    ctrLed = 0;
-    ctrWater = 0;
-  } //initializes the counters if the data will change
+  //initializes the counter if the data will change
   if (!changeData) {
     if (Firebase.ready() && signup && (millis() - prevLedOut > freq || prevLedOut == prevDataIn)) {
       prevLedOut = millis();
