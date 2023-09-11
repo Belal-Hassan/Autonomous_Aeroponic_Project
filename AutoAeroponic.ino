@@ -41,7 +41,7 @@ FirebaseData fdata, fchange;
 FirebaseAuth auth;
 FirebaseConfig config;
 ulli freq2, prevDataIn = 0, prevLedOut = 0, prevTempOut = 0, prevWater = 0, prevGetLedStatus = 0;
-int ctrTemp = 0, ctrLed = 0, ctrWater = 0, flagWater = 1, flagLed = 1;
+int ctrTemp = 0, flagWater = 1, flagLed = 1;
 bool changeData = true, signup = false, tempo = true;
 struct Plant {
   int wl1 = 0, wl2 = 0, pperiod = 0, minTemp = 0, maxTemp = 0, waterv = 0, uvA = 0, uvB = 0;
@@ -213,9 +213,7 @@ void loop() {
         Serial.println("Failed to save ledStatus because " + fdata.errorReason());
     }
     sendTemp();
-  } /*Note :The reason for using ctrTemp is to start the sendTemp function without the 
-timer after the first iteration, but after the second iteration, 
-ctrTemp is 2, so it won't affect the timer condition in the sendTemp function*/
+  }
   adjustTemp(); 
   lightControl();
   water(); 
@@ -238,10 +236,7 @@ void sendTemp() {
     else
       Serial.println("Failed to save temp because " + fdata.errorReason());
   }
-} /*Sends temperature to the firebase every "freq2" seconds. 
-Note :The reason for using ctrLed is to start the getLedStatus function without the 
-timer after sendTemp first iteration, but after the second iteration, 
-ctrLed is 2, so it won't affect the timer condition in the getLedStatus function*/
+} //Sends temperature to the firebase every "freq2" seconds.
 
 int getLedStatus() {
   if(changeData)
@@ -266,10 +261,7 @@ int getLedStatus() {
       goto ledCheck;
   }
   return flagLed;
-} /*returns the LEDs status (wheter turned off or on). 
-Note :The reason for using ctrWater is to start the water function without the 
-timer after getLedStatus first iteration, but after the second iteration, 
-ctrWater is 2, so it won't affect the timer condition in the water function*/
+} //returns the LEDs status (wheter turned off or on). 
 
 void water() {
   int onTime = 30000, offTime = 72000, cycle = offTime + onTime;
