@@ -2,19 +2,19 @@
 <hr>
 <br />
 <div align="center">
-  <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic">
+  <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project">
   </a>
 <h3 align="center">Autonomous Aeroponic</h3>
   <p align="center">
     <br />
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic">View Demo</a>
+    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project">View Demo</a>
     ·
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic/issues">Report Bug</a>
+    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic/issues">Request Feature</a>
+    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project/issues">Request Feature</a>
   </p>
 </div>
 <hr>
@@ -81,7 +81,7 @@ the user with the information needed without checking the plant.
 
 Belal - belal.34327@gmail.com
 
-Project Link: [https://github.com/BelalHassan7/Autonomous_Aeroponic](https://github.com/BelalHassan7/Autonomous_Aeroponic.git)
+Project Link: [https://github.com/BelalHassan7/Autonomous_Aeroponic_Project](https://github.com/BelalHassan7/Autonomous_Aeroponic_Project.git)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [arduino.js]: https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff&style=flat
