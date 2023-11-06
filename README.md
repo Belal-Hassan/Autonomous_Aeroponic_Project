@@ -2,19 +2,19 @@
 <hr>
 <br />
 <div align="center">
-  <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project">
+  <a href="https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project">
   </a>
 <h3 align="center">Autonomous Aeroponic</h3>
   <p align="center">
     <br />
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project">View Demo</a>
+    <a href="https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project">View Demo</a>
     ·
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project/issues">Report Bug</a>
+    <a href="https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BelalHassan7/Autonomous_Aeroponic_Project/issues">Request Feature</a>
+    <a href="https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project/issues">Request Feature</a>
   </p>
 </div>
 <hr>
@@ -37,7 +37,7 @@
 </details>
 
 ## About The Project
-This project is an Autonomous Aeroponic controlled by an ESP32. It is made to be user-friendly and, therefore, connected to a mobile application that containes all the 
+This is an Autonomous Aeroponic controlled by an ESP32. It is made to be user-friendly and, therefore, connected to a mobile application that containes all the 
 required growth conditions (temperature, lighting, and watering time) for any plant. The user could choose the plant either by using the camera or by selecting it manually
 from the list provided. When the user chooses the plant, the data of the plant (growth conditions) will be sent to the ESP32 through the firebase, and the ESP32 will start
 monitoring the growth conditions of the plant. In addition, the ESP32 will send the temperature and the led status to the mobile application through the firebase, providing
@@ -79,9 +79,9 @@ the user with the information needed without checking the plant.
 
 ## Contact
 
-Belal - belal.34327@gmail.com
+Belal - belal.34327@gmail.com, bilal.1021023@stemegypt.edu.eg
 
-Project Link: [https://github.com/BelalHassan7/Autonomous_Aeroponic_Project](https://github.com/BelalHassan7/Autonomous_Aeroponic_Project.git)
+Project Link: [https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project](https://github.com/Belal-Hassan/Autonomous_Aeroponic_Project.git)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [arduino.js]: https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff&style=flat
